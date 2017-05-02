@@ -1,0 +1,28 @@
+{
+  "name": "webpack-multiple-css-output",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Jose Quinto Zamora",
+    "email": "quintorel@hotmail.com",
+    "url": "https://blog.josequinto.com"
+  },
+  "description": "",
+  "scripts": {
+    "build": "set NODE_ENV=production && webpack --progress --config ./webpack/webpack.config.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "autoprefixer": "6.7.7",
+    "css-loader": "0.28.1",
+    "extract-text-webpack-plugin": "2.1.0",
+    "node-sass": "4.5.2",
+    "path": "0.12.7",
+    "sass-loader": "6.0.3",
+    "style-loader": "0.17.0",
+    "webpack": "2.4.1"
+  }
+}

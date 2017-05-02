@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);*, *:before, *:after {
+  box-sizing: border-box;
+  position: relative; }
+
+.app-container {
+  font-family: Lato, sans-serif;
+  margin: auto;
+  background-color: antiquewhite;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.rc-logo {
+  width: 14.28571%;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  border-radius: 0.25rem;
+  transition: background-color 0.25s ease-in-out; }
+  .rc-logo.past, .rc-logo.future {
+    opacity: 0.5; }
+  .rc-logo:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3); }
+
+.rc-counter .rc-counter-text {
+  padding-top: 5px;
+  padding-bottom: 15px; }
+
+.rc-button {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: silver;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s; }
+  .rc-button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098D1;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; }
+  .rc-button:hover, .rc-button:focus, .rc-button:active {
+    color: white; }
+    .rc-button:hover:before, .rc-button:focus:before, .rc-button:active:before {
+      border-radius: 4px;
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); }
+
+/*# sourceMappingURL=lib.css.map*/
