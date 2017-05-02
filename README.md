@@ -20,9 +20,7 @@ $ git clone https://github.com/username/webpack-multiple-css-output
 *Note: That will create a new folder called webpack-multiple-css-output with all the files in.*
 
 ### Install Project dependencies
-As we have yarn, instead of using npm i to install all our dependencies in our node_modules folder, we will use just yarn.
-*Note: you need to be sure your are inside the project folder because yarn will look for package.json file.*
-
+*Note: you need to be sure your are inside the project folder because npm will look for package.json file.*
 ```
 $ cd webpack-multiple-css-output
 $ npm i
